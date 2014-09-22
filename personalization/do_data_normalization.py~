@@ -1,0 +1,7 @@
+from sklearn import preprocessing
+import numpy as np
+import sys
+import os
+
+X_train, y_train = load_svmlight_file(sys.argv[1])
+npdata_scaled = preprocessing.scale(npdata)

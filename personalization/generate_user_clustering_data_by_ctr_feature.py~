@@ -1,0 +1,6 @@
+import os
+import sys
+
+user_freq_threshold = int(sys.argv[1])
+user_freq_file = sys.argv[2]
+training_data = sys.argv[3]
